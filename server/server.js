@@ -8,7 +8,7 @@ const userRoute = require("./routes/userRoute");
 app.use("/api/user", userRoute);
 app.use(cors());
 app.get("/", (req, res) => {
-  res.send("Hello, World!");
+  res.json("Hello, World!");
 });
 
 app.use(function (req, res, next) {
