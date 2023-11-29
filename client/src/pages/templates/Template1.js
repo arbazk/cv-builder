@@ -94,10 +94,10 @@ const Template1 = ({ user }) => {
               return (
                 <div className="d-flex align-items-center">
                   <h6 style={{ width: 120 }}>
-                    <b>{exp.yearRange} : </b>
+                    <b>{exp?.yearRange} : </b>
                   </h6>
                   <p>
-                    <b>{exp.company}</b> in <b>{exp.place}</b>
+                    <b>{exp?.company}</b> in <b>{exp?.place}</b>
                   </p>
                 </div>
               );
