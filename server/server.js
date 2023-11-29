@@ -6,7 +6,9 @@ app.use(express.json());
 require("dotenv").config();
 const userRoute = require("./routes/userRoute");
 app.use("/api/user", userRoute);
-app.use(cors());
+app.use(cors({
+  origin:[https://cv-builder1whq.vercel.app/]
+}));
 app.get("/", (req, res) => {
   res.send("Hello, World!");
 });
