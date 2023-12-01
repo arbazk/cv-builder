@@ -19,7 +19,7 @@ CV Builder is a full-stack web application built using the MERN (MongoDB, Expres
 ## Setup
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/cv-builder.git
+   git clone https://github.com/arbazk/cv-builder.git
    cd cv-builder
 Install Dependencies:
 
